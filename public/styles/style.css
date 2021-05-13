@@ -1,0 +1,115 @@
+body {
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+
+/* HEADER SECTION */
+.header {
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    position: relative;
+    float: left;
+}
+
+.logo img {
+    width: 80%;
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: fill;
+}
+
+.title {
+    font-size: 4vw;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+}
+
+/* FORM SECTION */
+
+input, label, select {
+    width: 95.5%;
+    font-size: 1.5vw;
+    display: block;
+}
+
+option {
+    font-size: 1vw;
+}
+
+.left_float, .right_float, .left_btn, .right_btn{
+    float: left;
+    width: 50%;
+}
+
+.left_float input, .right_float input, .left_btn input, .right_btn input  {
+    width: 90%;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+textarea {
+    font-size: 1vw;
+    margin-top: 20px;
+    width: 94.5%;
+}
+
+section {
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .title {
+        font-size: 8vw;
+    }
+
+    .header {
+        min-height: 150px;
+    }
+
+    option {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .header {
+        min-height: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px)
+{
+    .header {
+        min-height: 50px;
+    }
+
+    .left_float, .right_float {
+        float: left;
+        width: 100%;
+    }
+
+    select {
+        width: 92%;
+    }
+
+    #birth, textarea {
+        width: 91%;
+    }
+
+    .left_btn, .right_btn {
+        width: 48.6%;
+    }
+}
