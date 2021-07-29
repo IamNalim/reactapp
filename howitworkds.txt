@@ -1,0 +1,19 @@
+1.       Uživatel vyplní formulář
+
+2.       Po kliknutí na tlačítko Uložit se získají hodnoty z jednotlivých komponent a ty se zobrazí ve formátu JSON v multi line of text dole na formuláři
+
+3.       Hodnoty z komponent jsou následně vymazány
+
+4.       Je zobrazena notifikace
+
+a.       MessageBar/Push notifikace/Material UI/…
+
+5.       JSON si můžu mimo formulář upravit a pak ho vložit do multi line of text dole na formuláři
+
+6.       Po kliknutí na tlačítko Načíst se provede kontrola, jestli existuje JSON v multi line of text dole na formuláři
+
+a.       Pokud JSON existuje, provede se kontrola, jestli se jedná o validní JSON pro formulář (abych tam vkládal pouze požadovaný JSON)
+
+b.       Pokud je JSON validní, provede se načtení hodnot z JSONu do jednotlivých komponent formuláře a multi line of text se vyprázdní
+
+7.       Při jakékoliv chybě, která nastane při kliknutí na tlačítko Uložit nebo Načíst je vhodné zobrazit rozumnou informaci/chybu/…
